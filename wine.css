@@ -1,0 +1,190 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+
+body {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: black;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-right: 405px;
+  padding-left: 405px;
+}
+
+.section {
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  position: absolute;
+  padding-top: 30px;
+}
+
+.header-container {
+  display: flex;
+  /* padding: 30px 405px 0; */
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contacts-list {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.contacts-list-item {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  padding: 14px 107px;
+  border: 1px solid #c4c4c4;
+  align-items: center;
+}
+
+.nav-item:nth-child(1) {
+  border-left-color: transparent;
+}
+
+.nav-item:last-child {
+  border-right-color: transparent;
+}
+
+.nav-link {
+  padding: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* HERO */
+
+.hero-container {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+
+.hero {
+  background: linear-gradient(180deg, #282828 0%, rgba(40, 40, 40, 0) 100%),
+    url(./images/bgc.jpg), #ededed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  padding: 700px 752px 150px;
+}
+
+.hero-button {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.25;
+  background-color: #998431;
+  color: #fff;
+  height: 50px;
+  min-width: 182px;
+}
+
+.hero-button:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* ABOUT */
+
+.about {
+  background-color: #282828;
+}
+
+.about-text-wrapper {
+  padding: 60px 190px;
+  border: 1px solid #c4c4c4;
+}
+
+.about-title {
+  font-family: Playfair Display;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-img {
+  margin-left: auto;
+  margin-right: auto;
+}
